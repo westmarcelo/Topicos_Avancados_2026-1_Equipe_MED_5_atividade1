@@ -41,7 +41,7 @@ Este dataset é estruturado para suportar tarefas de recuperação de informaç�
 <p align="justify">
 Na preparação do Dataset M1 para a execução da atividade, o mesmo foi convertido do formato original .JSONL para o formato .CSV através do script Converte_jsonl_para_csv.py</p>
 
-Clique aqui para visualizar o Dataset M1 Original:
+[🔗 Clique aqui para visualizar o Dataset M1 Original](https://github.com/Itaymanes/K-QA/blob/main/dataset/questions_w_answers.jsonl)
 
 # Dataset M2 - Múltipla Escolha com Gabarito: 217 a 243 - USMLE: 
 <p align="justify">
