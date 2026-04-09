@@ -1,6 +1,6 @@
-# Topicos_Avancados_2026-1_Equipe_MED_5_atividade1
+# Topicos_Avancados_2026-1_Equipe_MED_5
 
-# 1 Atividade 1: Curadoria de Datasets e Inferência Básica com LLMs
+# 1 Atividade 1 - Curadoria de Datasets e Inferência Básica com LLMs
 
 # 2 Objetivo
 
