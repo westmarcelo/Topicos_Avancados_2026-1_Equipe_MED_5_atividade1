@@ -1,3 +1,5 @@
+<img width="755" height="974" alt="image" src="https://github.com/user-attachments/assets/d5709170-be14-420a-953b-0f60d5c4fad4" />
+
 # Topicos_Avancados_2026-1_Equipe_MED_5
 
 # 1 Atividade 1 - Curadoria de Datasets e Inferência Básica com LLMs
