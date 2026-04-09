@@ -65,7 +65,7 @@ Foram desenvolvidos 6 scripts em Python para alcançar o objetivo desta atividad
 # 4.2.1 Classificação:
 
 <p align="justify">
-Os scripts ”Classificacao Questoes Abertas.py” e ”Classificacao Questoes Multipla Escolha.py” classificaram as questões em 4 categorias:</p>
+Os scripts ”Classificacao_Questoes_Abertas.py” e ”Classificacao_Questoes_Multipla_Escolha.py” classificaram as questões em 4 categorias:</p>
 
 - Triagem: Questões que qualquer leigo ou sistema básico resolve.
 - Generalista: Exige conhecimento técnico base, mas não especialização profunda.
