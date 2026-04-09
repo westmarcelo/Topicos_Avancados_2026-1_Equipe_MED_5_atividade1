@@ -67,17 +67,13 @@ Foram desenvolvidos 6 scripts em Python para alcançar o objetivo desta atividad
 <p align="justify">
 Os scripts ”Classificacao Questoes Abertas.py” e ”Classificacao Questoes Multipla Escolha.py” classificaram as questões em 4 categorias:</p>
 
-# Triagem: 
-Questões que qualquer leigo ou sistema básico resolve.
+## Triagem: Questões que qualquer leigo ou sistema básico resolve.
 
-# Generalista: 
-Exige conhecimento técnico base, mas não especialização profunda.
+## Generalista: Exige conhecimento técnico base, mas não especialização profunda.
 
-# Especialista: 
-Requer conhecimento técnico avançado, protocolos especı́ficos ou histórico de casos complexos.
+## Especialista: Requer conhecimento técnico avançado, protocolos especı́ficos ou histórico de casos complexos.
 
-# Expert: 
-Casos sem precedentes claros ou que exigem tempo maior de experiência e pesquisa.
+## Expert: Casos sem precedentes claros ou que exigem tempo maior de experiência e pesquisa.
 
 # 4.2.2 Inferência:
 
