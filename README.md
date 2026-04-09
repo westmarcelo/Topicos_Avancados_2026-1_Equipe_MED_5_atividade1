@@ -171,6 +171,20 @@ Gráficos da Classificação do Dataset M2
 
 <img width="783" height="670" alt="image" src="https://github.com/user-attachments/assets/de6fa658-eed4-451e-b4fd-8c2b81ab5b3a" />
 
+<img width="829" height="633" alt="image" src="https://github.com/user-attachments/assets/96875b07-15cb-4541-ad84-b5d483c13dab" />
+
+<img width="830" height="823" alt="image" src="https://github.com/user-attachments/assets/6e861912-4714-40d9-871c-bded9b6d79fc" />
+
+<img width="803" height="865" alt="image" src="https://github.com/user-attachments/assets/38943baf-9499-4d1a-b463-3414146ddb55" />
+
+<img width="788" height="915" alt="image" src="https://github.com/user-attachments/assets/d99f7f8b-ccf7-478d-97d0-f8bc6158b6d8" />
+
+<img width="783" height="655" alt="image" src="https://github.com/user-attachments/assets/38fd361e-c0d9-4c2d-ba4b-2e749e730098" />
+
+
+
+
+
 
 
 
