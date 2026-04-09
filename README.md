@@ -18,7 +18,7 @@ as nuances da arquitetura dos LLMs e os desafios técnicos associados ao process
 fornecendo a base empı́rica necessária para o desenvolvimento de protocolos de avaliação mais complexos e para
 a otimização de sistemas de suporte à decisão. A Figura 7 apresenta as Etapas da Execução da Atividade 1.
 
-
+<img width="516" height="996" alt="image" src="https://github.com/user-attachments/assets/a4803567-f323-47f1-854c-baf9ce2693d9" />
 
 # 3 Domı́nio Médico
 
