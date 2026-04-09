@@ -160,3 +160,11 @@ A análise conjunta das métricas revela que, embora todos os modelos sejam capa
 Em termos práticos, os resultados indicam que o modelo Gemini se destaca como a melhor opção para aplicações que exigem alta precisão em tarefas de seleção de alternativas, seguido de perto pelo GPT. O modelo Perplexity, embora útil em outros contextos, pode demandar ajustes adicionais de prompt ou pós-processamento para alcançar desempenho comparável nesse tipo de tarefa.
 Por fim, destaca-se que os resultados obtidos estão diretamente relacionados ao conjunto de dados utilizado e ao formato do prompt empregado. Estudos futuros podem explorar variações de prompt engineering, aumento do conjunto de dados e avaliação em diferentes domı́nios para validar a generalização dos resultados observados.
 
+# 6 Conclusão
+
+Os resultados evidenciam que o desempenho dos modelos varia de acordo com a natureza da tarefa. No Dataset M1 (respostas abertas), o GPT apresentou melhor alinhamento semântico (ROUGE-L), enquanto o Perplexity demonstrou maior aderência lexical (BLEU), e o Gemini teve desempenho inferior em ambas as métricas. Isso reforça que tarefas abertas exigem avaliação baseada em similaridade textual e interpretação semântica, não apenas correspondência exata.
+
+No Dataset M2 (múltipla escolha), o cenário se inverte: o Gemini apresentou o melhor desempenho geral (maior acurácia e F1-score), seguido pelo GPT, enquanto o Perplexity obteve resultados inferiores. Esse comportamento indica maior capacidade do Gemini em tarefas estruturadas e objetivas, nas quais a precisão da escolha é determinante. 
+
+De forma geral, conclui-se que não há um modelo universalmente superior, mas sim modelos mais adequados a diferentes tipos de tarefa. O GPT se destaca em geração semântica, o Gemini em classificação estruturada e o Perplexity em proximidade lexical, evidenciando a importância de selecionar o modelo conforme o contexto da aplicação.
+
