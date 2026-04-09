@@ -131,3 +131,6 @@ A Tabela 3 apresenta a concordância e distribuição percentual das classifica�
 
 <img width="1141" height="520" alt="image" src="https://github.com/user-attachments/assets/c3391d02-2a3e-4014-b57e-dcb35657d9d2" />
 
+A Tabela 4 apresenta a concordância e distribuição percentual das classificações, conforme os modelos de linguagem: OpenAI: gpt-4o-mini, Google: gemini-2.5-flash e Perplexity: sonar-pro.
+
+<img width="1141" height="520" alt="image" src="https://github.com/user-attachments/assets/90891e6c-9c46-40e9-a3a8-a9501117d1a2" />
