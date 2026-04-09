@@ -191,3 +191,6 @@ decision support: A benchmark study.
 
 Gráficos da Classificação do Dataset M1
 
+<img width="1100" height="705" alt="image" src="https://github.com/user-attachments/assets/99ade40b-9de8-4091-b193-79219bb6c746" />
+
+
