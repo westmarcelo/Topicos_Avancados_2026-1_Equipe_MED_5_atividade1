@@ -4,6 +4,8 @@
 
 # 1 Atividade 1 - Curadoria de Datasets e Inferência Básica com LLMs
 
+[🔗 Clique aqui para visualizar o Vídeo](https://youtu.be/bLv58KYaKfE)
+
 # 2 Objetivo
 
 <p align="justify">
