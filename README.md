@@ -168,3 +168,26 @@ No Dataset M2 (múltipla escolha), o cenário se inverte: o Gemini apresentou o 
 
 De forma geral, conclui-se que não há um modelo universalmente superior, mas sim modelos mais adequados a diferentes tipos de tarefa. O GPT se destaca em geração semântica, o Gemini em classificação estruturada e o Perplexity em proximidade lexical, evidenciando a importância de selecionar o modelo conforme o contexto da aplicação.
 
+# REFERENCES
+Kassab, J., Massad, C., Kapadia, V., Hajjar, A. H. E., Dahdah, J. E., Helou, M. C. E., Haroun, E., Ramchand, J., and
+Harb, S. C. (2023). Abstract 16722: Performance evaluation of chatgpt 4.0 on cardiovascular clinical cases from
+the usmle step 2ck and step 3 of the national board of medical examiners. Circulation, 148(Suppl 1):A16722–
+A16722.
+Kung, T. H., Cheatham, M., Medenilla, A., Sillos, C., De Leon, L., Elepaño, C., Madriaga, M., Aggabao, R., Diaz-
+Candido, G., Maningo, J., and Tseng, V. (2023). Performance of chatgpt on usmle: Potential for ai-assisted
+medical education using large language models. PLOS Digital Health, 2(2):1–12.
+Manes, I., Ronn, N., Cohen, D., Ber, R. I., Horowitz-Kugler, Z., and Stanovsky, G. (2024). K-qa: A real-world medical
+qa benchmark.
+Pedrosa, J., Oliveira, D., Meira Jr, W., and Ribeiro, A. (2021). Automated classification of cardiology diagnoses based
+on textual medical reports. Journal of Information and Data Management, 12.
+Reading Turchioe, M., Volodarskiy, A., Pathak, J., Wright, D. N., Tcheng, J. E., and Slotwiner, D. (2022). Systematic
+review of current natural language processing methods and applications in cardiology. Heart, 108(12):909–916.
+Vishwanath, K., Stryker, J., Alyakin, A., Alber, D., and Oermann, E. (2025). Medmobile: a mobile-sized language
+model with clinical capabilities. BMJ Digital Health AI, 1:e000068.
+Wang, Z., Wu, J., Teitge, B., Holodinsky, J., and Drew, S. (2025). Small language models for emergency departments
+decision support: A benchmark study.
+
+# APPENDIX
+
+Gráficos da Classificação do Dataset M1
+
