@@ -97,78 +97,91 @@ Nesta etapa, foram submetidas 17 questões abertas do Dataset M1 (135 a 151 - It
 accuracy e f1 macro alcançadas.</p>
 
 # 5 Resultados
-
-A Tabela 1 apresenta as questões do Dataset M1 classificadas pelas categorias das perguntas, conforme os modelos de linguagem: OpenAI: gpt-4o-mini, Google: gemini-2.5-flash e Perplexity: sonar-pro.
+<p align="justify">
+A Tabela 1 apresenta as questões do Dataset M1 classificadas pelas categorias das perguntas, conforme os modelos de linguagem: OpenAI: gpt-4o-mini, Google: gemini-2.5-flash e Perplexity: sonar-pro.</p>
 
 # 5.1 Classificação das questões do Dataset M1
 
 <img width="1146" height="620" alt="image" src="https://github.com/user-attachments/assets/1f4fe4ac-0fa4-48d9-b812-40a3f2f8ccd1" />
 
 # 5.2 Classificação das questões do Dataset M2
-
-A Tabela 2 apresenta as questões do Dataset M2 classificadas pelas categorias das perguntas, conforme os modelos de linguagem: OpenAI: gpt-4o-mini, Google: gemini-2.5-flash e Perplexity: sonar-pro.
+<p align="justify">
+A Tabela 2 apresenta as questões do Dataset M2 classificadas pelas categorias das perguntas, conforme os modelos de linguagem: OpenAI: gpt-4o-mini, Google: gemini-2.5-flash e Perplexity: sonar-pro.</p>
 
 <img width="870" height="971" alt="image" src="https://github.com/user-attachments/assets/02e093d6-5995-43ea-8886-115f1411ab91" />
 
-A Tabela 3 apresenta a concordância e distribuição percentual das classificações, conforme os modelos de linguagem: OpenAI: gpt-4o-mini, Google: gemini-2.5-flash e Perplexity: sonar-pro.
+<p align="justify">
+A Tabela 3 apresenta a concordância e distribuição percentual das classificações, conforme os modelos de linguagem: OpenAI: gpt-4o-mini, Google: gemini-2.5-flash e Perplexity: sonar-pro.</p>
 
 <img width="1141" height="520" alt="image" src="https://github.com/user-attachments/assets/c3391d02-2a3e-4014-b57e-dcb35657d9d2" />
 
-A Tabela 4 apresenta a concordância e distribuição percentual das classificações, conforme os modelos de linguagem: OpenAI: gpt-4o-mini, Google: gemini-2.5-flash e Perplexity: sonar-pro.
+<p align="justify">
+A Tabela 4 apresenta a concordância e distribuição percentual das classificações, conforme os modelos de linguagem: OpenAI: gpt-4o-mini, Google: gemini-2.5-flash e Perplexity: sonar-pro.</p>
 
 <img width="1141" height="520" alt="image" src="https://github.com/user-attachments/assets/90891e6c-9c46-40e9-a3a8-a9501117d1a2" />
 
 # 5.3 Inferência das questões do Dataset M1
 
-Os resultados obtidos indicam um desempenho relativamente próximo entre os três modelos, porém com algumas diferenças relevantes quando analisadas as métricas BLEU e ROUGE-L. O modelo Perplexity apresentou o maior valor de BLEU (0,0286), sugerindo uma maior sobreposição de n-gramas entre as respostas geradas e o padrão ouro, o que pode indicar maior aderência lexical em termos de escolha de palavras.
+<p align="justify">
+Os resultados obtidos indicam um desempenho relativamente próximo entre os três modelos, porém com algumas diferenças relevantes quando analisadas as métricas BLEU e ROUGE-L. O modelo Perplexity apresentou o maior valor de BLEU (0,0286), sugerindo uma maior sobreposição de n-gramas entre as respostas geradas e o padrão ouro, o que pode indicar maior aderência lexical em termos de escolha de palavras.</p>
 
-Em contrapartida, o modelo GPT obteve o melhor desempenho em ROUGE-L (0,1839), métrica que considera a maior subsequência comum entre os textos, refletindo melhor alinhamento estrutural e semântico das respostas. O modelo Gemini, por sua vez, apresentou os menores valores em ambas as métricas (BLEU = 0,0112, ROUGE-L = 0,1559), indicando menor similaridade global com as respostas de referência.
+<p align="justify">
+Em contrapartida, o modelo GPT obteve o melhor desempenho em ROUGE-L (0,1839), métrica que considera a maior subsequência comum entre os textos, refletindo melhor alinhamento estrutural e semântico das respostas. O modelo Gemini, por sua vez, apresentou os menores valores em ambas as métricas (BLEU = 0,0112, ROUGE-L = 0,1559), indicando menor similaridade global com as respostas de referência.</p>
 
-De forma geral, observa-se que todos os valores de BLEU são baixos, o que é esperado em tarefas de respostas abertas, nas quais diferentes formulações corretas podem ser semanticamente equivalentes, mas lexicalmente distintas. Nesse contexto, a métrica ROUGE-L tende a ser mais informativa, pois captura similaridade estrutural mais ampla. 
+<p align="justify">
+De forma geral, observa-se que todos os valores de BLEU são baixos, o que é esperado em tarefas de respostas abertas, nas quais diferentes formulações corretas podem ser semanticamente equivalentes, mas lexicalmente distintas. Nesse contexto, a métrica ROUGE-L tende a ser mais informativa, pois captura similaridade estrutural mais ampla.</p>
 
-Assim, os resultados sugerem que o GPT apresenta melhor capacidade de gerar respostas semanticamente alinhadas com o padrão ouro, enquanto o Perplexity demonstra maior proximidade lexical pontual. O desempenho inferior do Gemini pode estar relacionado a variações na forma de resposta ou menor aderência ao estilo esperado pelo dataset. Esses achados reforçam a importância de utilizar múltiplas métricas na avaliação de modelos de linguagem em tarefas abertas, especialmente em domı́nios complexos como o médico.
+<p align="justify">
+Assim, os resultados sugerem que o GPT apresenta melhor capacidade de gerar respostas semanticamente alinhadas com o padrão ouro, enquanto o Perplexity demonstra maior proximidade lexical pontual. O desempenho inferior do Gemini pode estar relacionado a variações na forma de resposta ou menor aderência ao estilo esperado pelo dataset. Esses achados reforçam a importância de utilizar múltiplas métricas na avaliação de modelos de linguagem em tarefas abertas, especialmente em domı́nios complexos como o médico.</p>
 
 # 5.4 Inferência das questões do Dataset M2
-
-Os resultados obtidos a partir da avaliação dos modelos de linguagem — GPT, Gemini e Perplexity — demonstram diferenças relevantes de desempenho no contexto de resolução de questões de múltipla escolha na área médica. As métricas utilizadas para análise foram accuracy (acurácia) e F1-score macro, permitindo uma avaliação tanto da taxa global de acertos quanto do equilı́brio entre precisão e revocação entre as classes.
-
-Observa-se que o modelo Gemini apresentou o melhor desempenho geral, alcançando uma acurácia de 0,9629 e um F1-score macro de 0,9701, indicando não apenas alta taxa de acerto, mas também consistência na classificação entre diferentes alternativas. Esse resultado sugere que o modelo possui maior capacidade de generalização e melhor interpretação semântica das questões e das opções de resposta, o que é particularmente relevante em domı́nios complexos como o médico.
-
-O modelo GPT também apresentou desempenho elevado, com acurácia de 0,9259 e F1-score macro de 0,9374. Embora ligeiramente inferior ao Gemini, seus resultados indicam robustez e boa capacidade de tomada de decisão em tarefas de múltipla escolha. A pequena diferença em relação ao Gemini pode estar associada a nuances na compreensão contextual ou à forma como o modelo interpreta instruções restritivas (por exemplo, responder apenas com a letra da alternativa).
-
-Por outro lado, o modelo Perplexity apresentou desempenho inferior em comparação aos demais, com acurácia de 0,8148 e F1-score macro de 0,8269. Embora ainda apresente resultados razoáveis, a diferença significativa em relação aos outros modelos pode ser explicada por fatores como maior variabilidade nas respostas, menor aderência ao formato solicitado ou limitações na interpretação das opções em tarefas estruturadas. É possı́vel que o modelo esteja mais otimizado para respostas abertas e baseadas em recuperação de informação (web-grounded), o que pode impactar negativamente seu desempenho em tarefas objetivas e restritas.
-
-A análise conjunta das métricas revela que, embora todos os modelos sejam capazes de resolver questões de múltipla escolha com desempenho satisfatório, há variações importantes na precisão e consistência das respostas. O uso do F1-score macro foi particularmente relevante, pois evidencia o comportamento dos modelos em relação à distribuição das classes, evitando vieses decorrentes de possı́veis desbalanceamentos. 
-
-Em termos práticos, os resultados indicam que o modelo Gemini se destaca como a melhor opção para aplicações que exigem alta precisão em tarefas de seleção de alternativas, seguido de perto pelo GPT. O modelo Perplexity, embora útil em outros contextos, pode demandar ajustes adicionais de prompt ou pós-processamento para alcançar desempenho comparável nesse tipo de tarefa.
+<p align="justify">
+Os resultados obtidos a partir da avaliação dos modelos de linguagem — GPT, Gemini e Perplexity — demonstram diferenças relevantes de desempenho no contexto de resolução de questões de múltipla escolha na área médica. As métricas utilizadas para análise foram accuracy (acurácia) e F1-score macro, permitindo uma avaliação tanto da taxa global de acertos quanto do equilı́brio entre precisão e revocação entre as classes.</p>
+<p align="justify">
+Observa-se que o modelo Gemini apresentou o melhor desempenho geral, alcançando uma acurácia de 0,9629 e um F1-score macro de 0,9701, indicando não apenas alta taxa de acerto, mas também consistência na classificação entre diferentes alternativas. Esse resultado sugere que o modelo possui maior capacidade de generalização e melhor interpretação semântica das questões e das opções de resposta, o que é particularmente relevante em domı́nios complexos como o médico.</p>
+<p align="justify">
+O modelo GPT também apresentou desempenho elevado, com acurácia de 0,9259 e F1-score macro de 0,9374. Embora ligeiramente inferior ao Gemini, seus resultados indicam robustez e boa capacidade de tomada de decisão em tarefas de múltipla escolha. A pequena diferença em relação ao Gemini pode estar associada a nuances na compreensão contextual ou à forma como o modelo interpreta instruções restritivas (por exemplo, responder apenas com a letra da alternativa).</p>
+<p align="justify">
+Por outro lado, o modelo Perplexity apresentou desempenho inferior em comparação aos demais, com acurácia de 0,8148 e F1-score macro de 0,8269. Embora ainda apresente resultados razoáveis, a diferença significativa em relação aos outros modelos pode ser explicada por fatores como maior variabilidade nas respostas, menor aderência ao formato solicitado ou limitações na interpretação das opções em tarefas estruturadas. É possı́vel que o modelo esteja mais otimizado para respostas abertas e baseadas em recuperação de informação (web-grounded), o que pode impactar negativamente seu desempenho em tarefas objetivas e restritas.</p>
+<p align="justify">
+A análise conjunta das métricas revela que, embora todos os modelos sejam capazes de resolver questões de múltipla escolha com desempenho satisfatório, há variações importantes na precisão e consistência das respostas. O uso do F1-score macro foi particularmente relevante, pois evidencia o comportamento dos modelos em relação à distribuição das classes, evitando vieses decorrentes de possı́veis desbalanceamentos. </p>
+<p align="justify">
+Em termos práticos, os resultados indicam que o modelo Gemini se destaca como a melhor opção para aplicações que exigem alta precisão em tarefas de seleção de alternativas, seguido de perto pelo GPT. O modelo Perplexity, embora útil em outros contextos, pode demandar ajustes adicionais de prompt ou pós-processamento para alcançar desempenho comparável nesse tipo de tarefa.</p>
 Por fim, destaca-se que os resultados obtidos estão diretamente relacionados ao conjunto de dados utilizado e ao formato do prompt empregado. Estudos futuros podem explorar variações de prompt engineering, aumento do conjunto de dados e avaliação em diferentes domı́nios para validar a generalização dos resultados observados.
 
 # 6 Conclusão
-
-Os resultados evidenciam que o desempenho dos modelos varia de acordo com a natureza da tarefa. No Dataset M1 (respostas abertas), o GPT apresentou melhor alinhamento semântico (ROUGE-L), enquanto o Perplexity demonstrou maior aderência lexical (BLEU), e o Gemini teve desempenho inferior em ambas as métricas. Isso reforça que tarefas abertas exigem avaliação baseada em similaridade textual e interpretação semântica, não apenas correspondência exata.
-
-No Dataset M2 (múltipla escolha), o cenário se inverte: o Gemini apresentou o melhor desempenho geral (maior acurácia e F1-score), seguido pelo GPT, enquanto o Perplexity obteve resultados inferiores. Esse comportamento indica maior capacidade do Gemini em tarefas estruturadas e objetivas, nas quais a precisão da escolha é determinante. 
-
-De forma geral, conclui-se que não há um modelo universalmente superior, mas sim modelos mais adequados a diferentes tipos de tarefa. O GPT se destaca em geração semântica, o Gemini em classificação estruturada e o Perplexity em proximidade lexical, evidenciando a importância de selecionar o modelo conforme o contexto da aplicação.
+<p align="justify">
+Os resultados evidenciam que o desempenho dos modelos varia de acordo com a natureza da tarefa. No Dataset M1 (respostas abertas), o GPT apresentou melhor alinhamento semântico (ROUGE-L), enquanto o Perplexity demonstrou maior aderência lexical (BLEU), e o Gemini teve desempenho inferior em ambas as métricas. Isso reforça que tarefas abertas exigem avaliação baseada em similaridade textual e interpretação semântica, não apenas correspondência exata.</p>
+<p align="justify">
+No Dataset M2 (múltipla escolha), o cenário se inverte: o Gemini apresentou o melhor desempenho geral (maior acurácia e F1-score), seguido pelo GPT, enquanto o Perplexity obteve resultados inferiores. Esse comportamento indica maior capacidade do Gemini em tarefas estruturadas e objetivas, nas quais a precisão da escolha é determinante. </p>
+<p align="justify">
+De forma geral, conclui-se que não há um modelo universalmente superior, mas sim modelos mais adequados a diferentes tipos de tarefa. O GPT se destaca em geração semântica, o Gemini em classificação estruturada e o Perplexity em proximidade lexical, evidenciando a importância de selecionar o modelo conforme o contexto da aplicação.</p>
 
 # REFERENCES
+<p align="justify">
 Kassab, J., Massad, C., Kapadia, V., Hajjar, A. H. E., Dahdah, J. E., Helou, M. C. E., Haroun, E., Ramchand, J., and
 Harb, S. C. (2023). Abstract 16722: Performance evaluation of chatgpt 4.0 on cardiovascular clinical cases from
 the usmle step 2ck and step 3 of the national board of medical examiners. Circulation, 148(Suppl 1):A16722–
-A16722.
+A16722.</p>
+<p align="justify">
 Kung, T. H., Cheatham, M., Medenilla, A., Sillos, C., De Leon, L., Elepaño, C., Madriaga, M., Aggabao, R., Diaz-
 Candido, G., Maningo, J., and Tseng, V. (2023). Performance of chatgpt on usmle: Potential for ai-assisted
-medical education using large language models. PLOS Digital Health, 2(2):1–12.
+medical education using large language models. PLOS Digital Health, 2(2):1–12.</p>
+<p align="justify">
 Manes, I., Ronn, N., Cohen, D., Ber, R. I., Horowitz-Kugler, Z., and Stanovsky, G. (2024). K-qa: A real-world medical
-qa benchmark.
+qa benchmark.</p>
+<p align="justify">
 Pedrosa, J., Oliveira, D., Meira Jr, W., and Ribeiro, A. (2021). Automated classification of cardiology diagnoses based
-on textual medical reports. Journal of Information and Data Management, 12.
+on textual medical reports. Journal of Information and Data Management, 12.</p>
+<p align="justify">
 Reading Turchioe, M., Volodarskiy, A., Pathak, J., Wright, D. N., Tcheng, J. E., and Slotwiner, D. (2022). Systematic
-review of current natural language processing methods and applications in cardiology. Heart, 108(12):909–916.
+review of current natural language processing methods and applications in cardiology. Heart, 108(12):909–916.</p>
+<p align="justify">
 Vishwanath, K., Stryker, J., Alyakin, A., Alber, D., and Oermann, E. (2025). Medmobile: a mobile-sized language
-model with clinical capabilities. BMJ Digital Health AI, 1:e000068.
+model with clinical capabilities. BMJ Digital Health AI, 1:e000068.</p>
+<p align="justify">
 Wang, Z., Wu, J., Teitge, B., Holodinsky, J., and Drew, S. (2025). Small language models for emergency departments
-decision support: A benchmark study.
+decision support: A benchmark study.</p>
 
 # APPENDIX
 
