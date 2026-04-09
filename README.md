@@ -161,4 +161,11 @@ Gráficos da Classificação do Dataset M1
 
 <img width="1100" height="705" alt="image" src="https://github.com/user-attachments/assets/99ade40b-9de8-4091-b193-79219bb6c746" />
 
+Gráficos da Classificação do Dataset M2
+
+<img width="1039" height="643" alt="image" src="https://github.com/user-attachments/assets/ef5f8e79-7612-471b-bf78-ae32b793b2d9" />
+
+
+
+
 
