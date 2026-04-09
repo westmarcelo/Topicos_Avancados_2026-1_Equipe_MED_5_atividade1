@@ -106,5 +106,10 @@ O Gemini 2.5 Flash é um modelo de linguagem da Google, desenvolvido para oferec
 respostas rápidas em texto, código, imagens e vı́deo. Sua arquitetura foi refinada para ser altamente eficaz em tarefas de sumarização, extração de dados e conversação fluida, posicionando-se como uma ferramenta robusta para desenvolvedores que buscam escalar soluções de IA com um custo-benefı́cio superior, especialmente em fluxos de trabalho que demandam alta frequência de chamadas de API e processamento em tempo real.
 
 # Perplexity: sonar-pro: 
-O Sonar Pro é um modelo de linguagem avançado desenvolvido pela Perplexity, focado em transformar a experiência de busca convencional em uma interface de resposta direta, precisa
+O Sonar Pro é um modelo de linguagem avançado desenvolvido pela Perplexity, focado em transformar a experiência de busca convencional em uma interface de resposta direta, precisa e atualizada em tempo real. Diferente de modelos estáticos, ele é integrado a um motor de busca que realiza a varredura ativa da web para fundamentar cada resposta com fontes citadas, mitigando significativamente o risco de alucinações. O modelo é otimizado para lidar com consultas complexas que exigem a sı́ntese de múltiplas informações, oferecendo um equilı́brio entre profundidade analı́tica e agilidade, o que o torna uma ferramenta poderosa para pesquisa acadêmica, análise de mercado e verificação de fatos em ambientes onde a validade da informação é a prioridade máxima.
+
+Para efetuar as inferências foram utilizados os scripts ”Inferencia_Questoes_Abertas.py” e ”Inferencia_Questoes_Multipla_Escolha.py”.
+
+Nesta etapa, foram submetidas 17 questões abertas do Dataset M1 (135 a 151 - Itaymanes K-QA) e submetidas 27 questões de Múltipla Escolha do Dataset M2 (217 a 243 - USMLE), sendo gerados 4 arquivos: ”resultadosM1_modelos.csv”, ”resultadosM2_modelos.csv”, ”metricasM1_modelos.csv” e ”metricasM2_modelos.csv”. Os dois primerios arquivos registraram: Identificador, Pergunta, Resposta Correta, Resposta GPT, Resposta Gemini e Resposta Perplexity e os dois últimos arquivos registraram os valores das métricas
+accuracy e f1 macro alcançadas.
 
