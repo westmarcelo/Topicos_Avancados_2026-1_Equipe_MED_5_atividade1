@@ -113,3 +113,13 @@ Para efetuar as inferências foram utilizados os scripts ”Inferencia_Questoes_
 Nesta etapa, foram submetidas 17 questões abertas do Dataset M1 (135 a 151 - Itaymanes K-QA) e submetidas 27 questões de Múltipla Escolha do Dataset M2 (217 a 243 - USMLE), sendo gerados 4 arquivos: ”resultadosM1_modelos.csv”, ”resultadosM2_modelos.csv”, ”metricasM1_modelos.csv” e ”metricasM2_modelos.csv”. Os dois primerios arquivos registraram: Identificador, Pergunta, Resposta Correta, Resposta GPT, Resposta Gemini e Resposta Perplexity e os dois últimos arquivos registraram os valores das métricas
 accuracy e f1 macro alcançadas.
 
+# 5 Resultados
+
+A Tabela 1 apresenta as questões do Dataset M1 classificadas pelas categorias das perguntas, conforme os modelos de linguagem: OpenAI: gpt-4o-mini, Google: gemini-2.5-flash e Perplexity: sonar-pro.
+
+# 5.1 Classificação das questões do Dataset M1
+
+<img width="670" height="363" alt="image" src="https://github.com/user-attachments/assets/4ab61056-dd78-4295-88f3-b618495ce681" />
+
+
+
