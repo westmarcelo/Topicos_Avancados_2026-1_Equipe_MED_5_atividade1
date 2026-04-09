@@ -79,7 +79,7 @@ Clique aqui para visualizar o Dataset M2 Original:
 
 # 4.2 Códigos
 
-Foram desenvolvidos 4 scripts em Python para alcançar o objetivo desta atividade.
+Foram desenvolvidos 6 scripts em Python para alcançar o objetivo desta atividade.
 
 # 4.2.1 Classificação:
 
