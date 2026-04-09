@@ -121,5 +121,10 @@ A Tabela 1 apresenta as questões do Dataset M1 classificadas pelas categorias d
 
 <img width="1146" height="620" alt="image" src="https://github.com/user-attachments/assets/1f4fe4ac-0fa4-48d9-b812-40a3f2f8ccd1" />
 
+# 5.2 Classificação das questões do Dataset M2
+
+A Tabela 2 apresenta as questões do Dataset M2 classificadas pelas categorias das perguntas, conforme os modelos de linguagem: OpenAI: gpt-4o-mini, Google: gemini-2.5-flash e Perplexity: sonar-pro.
+
+<img width="870" height="971" alt="image" src="https://github.com/user-attachments/assets/02e093d6-5995-43ea-8886-115f1411ab91" />
 
 
