@@ -134,3 +134,13 @@ A Tabela 3 apresenta a concordância e distribuição percentual das classifica�
 A Tabela 4 apresenta a concordância e distribuição percentual das classificações, conforme os modelos de linguagem: OpenAI: gpt-4o-mini, Google: gemini-2.5-flash e Perplexity: sonar-pro.
 
 <img width="1141" height="520" alt="image" src="https://github.com/user-attachments/assets/90891e6c-9c46-40e9-a3a8-a9501117d1a2" />
+
+# 5.3 Inferência das questões do Dataset M1
+
+Os resultados obtidos indicam um desempenho relativamente próximo entre os três modelos, porém com algumas diferenças relevantes quando analisadas as métricas BLEU e ROUGE-L. O modelo Perplexity apresentou o maior valor de BLEU (0,0286), sugerindo uma maior sobreposição de n-gramas entre as respostas geradas e o padrão ouro, o que pode indicar maior aderência lexical em termos de escolha de palavras.
+
+Em contrapartida, o modelo GPT obteve o melhor desempenho em ROUGE-L (0,1839), métrica que considera a maior subsequência comum entre os textos, refletindo melhor alinhamento estrutural e semântico das respostas. O modelo Gemini, por sua vez, apresentou os menores valores em ambas as métricas (BLEU = 0,0112, ROUGE-L = 0,1559), indicando menor similaridade global com as respostas de referência.
+
+De forma geral, observa-se que todos os valores de BLEU são baixos, o que é esperado em tarefas de respostas abertas, nas quais diferentes formulações corretas podem ser semanticamente equivalentes, mas lexicalmente distintas. Nesse contexto, a métrica ROUGE-L tende a ser mais informativa, pois captura similaridade estrutural mais ampla. 
+
+Assim, os resultados sugerem que o GPT apresenta melhor capacidade de gerar respostas semanticamente alinhadas com o padrão ouro, enquanto o Perplexity demonstra maior proximidade lexical pontual. O desempenho inferior do Gemini pode estar relacionado a variações na forma de resposta ou menor aderência ao estilo esperado pelo dataset. Esses achados reforçam a importância de utilizar múltiplas métricas na avaliação de modelos de linguagem em tarefas abertas, especialmente em domı́nios complexos como o médico.
