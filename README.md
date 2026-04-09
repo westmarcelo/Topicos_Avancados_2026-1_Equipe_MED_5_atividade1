@@ -76,3 +76,35 @@ um indicador de desempenho em contextos nos quais a precisão e o raciocı́nio 
 Na preparação do Dataset M2 para a execução da atividade, o mesmo foi convertido do formato original .PDF para o formato .CSV através do script Converte_pdf_para_csv.py
 
 Clique aqui para visualizar o Dataset M2 Original:
+
+# 4.2 Códigos
+
+Foram desenvolvidos 4 scripts em Python para alcançar o objetivo desta atividade.
+
+# 4.2.1 Classificação:
+
+Os scripts ”Classificacao Questoes Abertas.py” e ”Classificacao Questoes Multipla Escolha.py” classificaram as questões em 4 categorias:
+
+• Triagem: Questões que qualquer leigo ou sistema básico resolve.
+• Generalista: Exige conhecimento técnico base, mas não especialização profunda.
+• Especialista: Requer conhecimento técnico avançado, protocolos especı́ficos ou histórico de casos complexos.
+• Expert: Casos sem precedentes claros ou que exigem tempo maior de experiência e pesquisa.
+
+# 4.2.2 Inferência:
+
+Foram utilizados 3 Modelos de Linguagem de Grande Escala (LLMS), cada modelo de um provedor
+distinto para a execução da inferência.
+
+# OpenAI: gpt-4o-mini: 
+
+O GPT-4o-mini é um modelo de linguagem de pequeno porte da OpenAI, projetado para oferecer um equilı́brio otimizado entre alto desempenho e eficiência de custo em tarefas de inteligência artificial. Lançado como um sucessor mais capaz e econômico ao GPT-3.5 Turbo, ele suporta multimodalidade nativa (processando texto, áudio, imagens e vı́deo) e possui uma janela de contexto de
+128 mil tokens. Sua arquitetura é especialmente eficaz para aplicações que exigem baixa latência, como assistentes em tempo real e automação de fluxos de trabalho, superando modelos de sua categoria em benchmarks de raciocı́nio acadêmico e codificação, ao mesmo tempo em que se mantém acessı́vel para desenvolvedores que operam em larga escala ou em ambientes com recursos mais limitados.
+
+# Google: gemini-2.5-flash: 
+
+O Gemini 2.5 Flash é um modelo de linguagem da Google, desenvolvido para oferecer velocidade extrema e eficiência sem comprometer a capacidade de raciocı́nio complexo. Como um modelo de porte médio otimizado para multimodalidade nativa, ele se destaca pelo processamento de grandes volumes de dados (long-context) com baixa latência, sendo ideal para aplicações que exigem
+respostas rápidas em texto, código, imagens e vı́deo. Sua arquitetura foi refinada para ser altamente eficaz em tarefas de sumarização, extração de dados e conversação fluida, posicionando-se como uma ferramenta robusta para desenvolvedores que buscam escalar soluções de IA com um custo-benefı́cio superior, especialmente em fluxos de trabalho que demandam alta frequência de chamadas de API e processamento em tempo real.
+
+# Perplexity: sonar-pro: 
+O Sonar Pro é um modelo de linguagem avançado desenvolvido pela Perplexity, focado em transformar a experiência de busca convencional em uma interface de resposta direta, precisa
+
