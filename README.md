@@ -6,19 +6,24 @@
 
 # 2 Objetivo
 
-Este trabalho tem como objetivo principal estabelecer um protocolo de curadoria de dados para a avaliação de Modelos de Linguagem de Grande Escala (LLMS), integrando conjuntos de informações com estruturas complementares. A metodologia fundamenta-se na análise de dois datasets do domı́nio médico: o primeiro, composto por questões abertas, visa mensurar a capacidade de sı́ntese e geração de texto livre; o segundo, baseado em itens de múltipla escolha, foca na validação da precisão técnica e no raciocı́nio dedutivo especializado sob condições de resposta estruturada.
+<p align="justify">
+Este trabalho tem como objetivo principal estabelecer um protocolo de curadoria de dados para a avaliação de Modelos de Linguagem de Grande Escala (LLMS), integrando conjuntos de informações com estruturas complementares. A metodologia fundamenta-se na análise de dois datasets do domı́nio médico: o primeiro, composto por questões abertas, visa mensurar a capacidade de sı́ntese e geração de texto livre; o segundo, baseado em itens de múltipla escolha, foca na validação da precisão técnica e no raciocı́nio dedutivo especializado sob condições de resposta estruturada.</p>
 
-Para além da organização dos dados, a investigação propõe uma etapa de imersão analı́tica voltada à inferência básica, servindo como uma fase exploratória essencial para compreender o comportamento dos modelos em domı́nios de conhecimento especı́ficos. Este contato inicial com os processos inferenciais permite identificar as nuances da arquitetura dos LLMs e os desafios técnicos associados ao processamento de linguagem natural, fornecendo a base empı́rica necessária para o desenvolvimento de protocolos de avaliação mais complexos e para a otimização de sistemas de suporte à decisão. A Figura 7 apresenta as Etapas da Execução da Atividade 1.
+<p align="justify">
+Para além da organização dos dados, a investigação propõe uma etapa de imersão analı́tica voltada à inferência básica, servindo como uma fase exploratória essencial para compreender o comportamento dos modelos em domı́nios de conhecimento especı́ficos. Este contato inicial com os processos inferenciais permite identificar as nuances da arquitetura dos LLMs e os desafios técnicos associados ao processamento de linguagem natural, fornecendo a base empı́rica necessária para o desenvolvimento de protocolos de avaliação mais complexos e para a otimização de sistemas de suporte à decisão. A Figura 7 apresenta as Etapas da Execução da Atividade 1.</p>
 
 <img width="516" height="996" alt="image" src="https://github.com/user-attachments/assets/a4803567-f323-47f1-854c-baf9ce2693d9" />
 
 # 3 Domı́nio Médico
 
-A utilização de modelos de linguagem de grande escala no domı́nio médico justifica-se pela sua capacidade de processar e sintetizar vastos volumes de dados clı́nicos não estruturados, proporcionando uma avaliação padronizada e escalável da competência profissional (Kung et al., 2023), (Reading Turchioe et al., 2022).
+<p align="justify">
+A utilização de modelos de linguagem de grande escala no domı́nio médico justifica-se pela sua capacidade de processar e sintetizar vastos volumes de dados clı́nicos não estruturados, proporcionando uma avaliação padronizada e escalável da competência profissional (Kung et al., 2023), (Reading Turchioe et al., 2022).</p>
 
-Ao contrário das métricas de avaliação tradicionais, que podem ser limitadas pela subjetividade humana ou pela latência no processamento, os LLMs permitem a realização de benchmarks rigorosos contra padrões-ouro, como o USMLE, demonstrando uma acurácia que muitas vezes atinge o limiar de aprovação exigido de médicos especialistas (Kassab et al., 2023), (Kung et al., 2023).
+<p align="justify">
+Ao contrário das métricas de avaliação tradicionais, que podem ser limitadas pela subjetividade humana ou pela latência no processamento, os LLMs permitem a realização de benchmarks rigorosos contra padrões-ouro, como o USMLE, demonstrando uma acurácia que muitas vezes atinge o limiar de aprovação exigido de médicos especialistas (Kassab et al., 2023), (Kung et al., 2023).</p>
 
-Além disso, a aplicação de modelos especializados, como a abordagem desta atividade, não apenas pode otimizar o fluxo de trabalho hospitalar através da automação de classificações diagnósticas a partir de laudos textuais, mas também pode estabelecer uma infraestrutura robusta para a educação médica assistida por IA e para o desenvolvimento de sistemas de suporte à decisão de alta precisão (Pedrosa et al., 2021), (Vishwanath et al.,2025), (Wang et al., 2025).
+<p align="justify">
+Além disso, a aplicação de modelos especializados, como a abordagem desta atividade, não apenas pode otimizar o fluxo de trabalho hospitalar através da automação de classificações diagnósticas a partir de laudos textuais, mas também pode estabelecer uma infraestrutura robusta para a educação médica assistida por IA e para o desenvolvimento de sistemas de suporte à decisão de alta precisão (Pedrosa et al., 2021), (Vishwanath et al.,2025), (Wang et al., 2025).</p>
 
 # 4 Datasets, Códigos e Modelos de Linguagem
 
