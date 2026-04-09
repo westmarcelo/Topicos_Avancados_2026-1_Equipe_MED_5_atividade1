@@ -127,4 +127,7 @@ A Tabela 2 apresenta as questões do Dataset M2 classificadas pelas categorias d
 
 <img width="870" height="971" alt="image" src="https://github.com/user-attachments/assets/02e093d6-5995-43ea-8886-115f1411ab91" />
 
+A Tabela 3 apresenta a concordância e distribuição percentual das classificações, conforme os modelos de linguagem: OpenAI: gpt-4o-mini, Google: gemini-2.5-flash e Perplexity: sonar-pro.
+
+<img width="1141" height="520" alt="image" src="https://github.com/user-attachments/assets/c3391d02-2a3e-4014-b57e-dcb35657d9d2" />
 
