@@ -119,7 +119,7 @@ A Tabela 1 apresenta as questões do Dataset M1 classificadas pelas categorias d
 
 # 5.1 Classificação das questões do Dataset M1
 
-<img width="670" height="363" alt="image" src="https://github.com/user-attachments/assets/4ab61056-dd78-4295-88f3-b618495ce681" />
+<img width="1146" height="620" alt="image" src="https://github.com/user-attachments/assets/1f4fe4ac-0fa4-48d9-b812-40a3f2f8ccd1" />
 
 
 
